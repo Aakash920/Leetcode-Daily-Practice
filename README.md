@@ -5,8 +5,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1185-find-in-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/1185-find-in-mountain-array) |
 ## Binary Search
 |  |
 | ------- |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1185-find-in-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/1185-find-in-mountain-array) |
+## Interactive
+|  |
+| ------- |
+| [1185-find-in-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/1185-find-in-mountain-array) |
 <!---LeetCode Topics End-->
