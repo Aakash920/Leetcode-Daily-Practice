@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0367-valid-perfect-square](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0367-valid-perfect-square) |
 | [0410-split-array-largest-sum](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0410-split-array-largest-sum) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1185-find-in-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/1185-find-in-mountain-array) |
@@ -52,5 +53,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0367-valid-perfect-square](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0367-valid-perfect-square) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 <!---LeetCode Topics End-->
