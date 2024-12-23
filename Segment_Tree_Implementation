@@ -1,0 +1,106 @@
+package binaryTree;
+
+public class SegmentTree {
+	public static void main(String[] args) {
+		int[] arr= {3,8,7,6,-2,-8,4,9};
+		SegmentTree st=new SegmentTree(arr);
+//		st.display();
+		System.out.println(st.query(0, 6));
+	}
+
+	private static class Node {
+		int data;
+		int start;
+		int end;
+		Node left;
+		Node right;
+
+		public Node(int start, int end) {
+			this.start = start;
+			this.end = end;
+		}
+	}
+	Node root;
+	public SegmentTree(int[] arr) {
+		this.root=construct(arr, 0, arr.length-1);
+	}
+	public Node construct(int[] arr, int start, int end) {
+		//Node is a leaf Node
+		if(start==end) {
+			Node nn=new Node(start, end);
+			nn.data=arr[start];
+			return nn;
+		}
+		
+		// make a new Node 
+		Node nn=new Node(start, end);
+		int mid=start+(end-start)/2;
+		
+		nn.left=construct(arr,start,mid);
+		nn.right=construct(arr, mid+1, end);
+		
+		nn.data=nn.left.data+nn.right.data;
+		return nn;
+	}
+	public void display() {
+		display(this.root);
+	}
+	private void display(Node node) {
+		String s="";
+		
+		if(node.left!=null) {
+			s+="Interval [" + node.left.start + "-" + node.left.end + "] data:" + node.left.data + " =>";
+		}else {
+			s+="No left child";
+		}
+		
+		//current Node
+		s+="Interval [" + node.start + "-" + node.end + "] data:" + node.data + " =>";
+		
+		if(node.right!=null) {
+			s+="Interval [" + node.right.start + "-" + node.right.end + "] data:" + node.right.data + " =>";
+		}else {
+			s+="No right child";
+		}
+		
+		System.out.println(s+'\n');
+		//call recursion
+		if(node.left!=null) {
+			display(node.left);
+		}
+		if(node.right!=null) {
+			display(node.right);
+		}
+		
+	}
+	
+	public int query(int qsi, int qei) {
+		return this.query(this.root, qsi,qei);
+	}
+	private int query(Node node, int qsi, int qei) {
+		if(node.start>=qsi && node.end<=qei) {
+			return node.data;
+		}else if(node.start>qei || node.end<qsi) {
+			return 0;
+		}else {
+			return query(node.left, qsi, qei)+query(node.right,qsi,qei);
+		}
+	}
+	public void update(int index, int val) {
+		this.root.data=update(this.root, index, val);
+	}
+	public int update(Node node, int index, int val) {
+		if(index>=node.start && index<=node.end) {
+			if(index==node.start && index==node.end) {
+				node.data=val;
+				return node.data;
+			}else {
+				int left=update(node.left,index,val);
+				int right=update(node.right,index,val);
+				node.data=left+right;
+				return node.data;
+			}
+		}
+		return node.data;
+	}
+}
