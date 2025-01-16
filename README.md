@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0304-range-sum-query-2d-immutable](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0410-split-array-largest-sum) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1185-find-in-mountain-array](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/1185-find-in-mountain-array) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0304-range-sum-query-2d-immutable](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0410-split-array-largest-sum) |
 ## Hash Table
 |  |
@@ -92,4 +94,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0543-diameter-of-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/1035-cousins-in-binary-tree) |
+## Design
+|  |
+| ------- |
+| [0304-range-sum-query-2d-immutable](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0304-range-sum-query-2d-immutable) |
+## Matrix
+|  |
+| ------- |
+| [0304-range-sum-query-2d-immutable](https://github.com/Aakash920/Leetcode-Daily-Practice/tree/master/0304-range-sum-query-2d-immutable) |
 <!---LeetCode Topics End-->
